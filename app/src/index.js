@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import logo from './logo.svg';
+import 'App.js';
 import './App.css';
 import * as serviceWorker from './serviceWorker';
 import axios from 'axios';

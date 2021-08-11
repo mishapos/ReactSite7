@@ -11,6 +11,7 @@ function App() {
         <p>
           Look at this really cool spinny thing we have here. Visible update.
           Last updated 8/11/2021 1:59 PM PST
+          BAKED POTATO
         </p>
         <a
           className="App-link"

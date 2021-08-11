@@ -4,7 +4,6 @@
             "AzureFrontDoor.Frontend",
             "AzureFrontDoor.Backend",
             "AzureFrontDoor.FirstParty",
-            "1.1.1.1/32"
         ]
     },
     "globalHeaders" : {

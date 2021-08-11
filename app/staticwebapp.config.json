@@ -6,5 +6,8 @@
             "AzureFrontDoor.FirstParty",
             "1.1.1.1/32"
         ]
+    },
+    "globalHeaders" : {
+        "mishas-header": "mishas-header-value"
     }
 }

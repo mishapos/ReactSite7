@@ -3,7 +3,8 @@
         "allowedIpRanges": [
             "AzureFrontDoor.Frontend",
             "AzureFrontDoor.Backend",
-            "AzureFrontDoor.FirstParty"
+            "AzureFrontDoor.FirstParty",
+            "1.1.1.1/32"
         ]
     }
 }

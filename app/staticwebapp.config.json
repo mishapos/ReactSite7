@@ -4,7 +4,7 @@
             "AzureFrontDoor.Frontend",
             "AzureFrontDoor.Backend",
             "AzureFrontDoor.FirstParty",
-            "ApiManagement"
+            "ApiManagement",
             "23.97.72.151/30"
         ]
     },

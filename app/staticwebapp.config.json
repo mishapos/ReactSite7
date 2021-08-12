@@ -1,7 +1,10 @@
 {
     "networking": {
         "allowedIpRanges": [
-            "23.97.72.151/30"
+            "AzureFrontDoor.Frontend",
+            "AzureFrontDoor.Backend",
+            "AzureFrontDoor.FirstParty"
+      
         ]
     },
     "globalHeaders" : {

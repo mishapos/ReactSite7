@@ -1,5 +1,5 @@
 {
-   "networking" : {"allowedIpRanges": ["AzureFrontDoor.Frontend". "AzureFrontDoor.FirstParty", "AzureFrontDoor.Backend"]}
+   "networking" : {"allowedIpRanges": ["AzureFrontDoor.Frontend", "AzureFrontDoor.FirstParty", "AzureFrontDoor.Backend"]}
     "globalHeaders" : {
         "mishas-header": "mishas-header-value"
     }

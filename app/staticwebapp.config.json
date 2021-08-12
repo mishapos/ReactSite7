@@ -1,5 +1,5 @@
 {
-    "networking" : {"allowedIpRanges": ["AzureFrontDoor.Frontend", "AzureFrontDoor.FirstParty", "AzureFrontDoor.Backend"]},
+    "networking" : {"allowedIpRanges": ["21.97.72.151/24"]},
     "globalHeaders" : {
         "mishas-header": "mishas-header-value"
     }

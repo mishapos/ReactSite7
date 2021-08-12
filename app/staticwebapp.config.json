@@ -1,5 +1,5 @@
 {
-    "networking" : {"allowedIpRanges": ["21.97.72.151/24"]},
+    "networking" : {"allowedIpRanges": ["23.97.72.151/24"]},
     "globalHeaders" : {
         "mishas-header": "mishas-header-value"
     }

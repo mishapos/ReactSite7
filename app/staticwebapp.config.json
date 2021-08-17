@@ -1,5 +1,5 @@
 {
-    "networking" : {"allowedIpRanges": ["172.92.139.0/24"]},
+    "networking" : {"allowedIpRanges": ["172.92.139.0/24", "AzureFrontDoor.Backend"]},
     "globalHeaders" : {
         "mishas-header": "mishas-header-value"
     }

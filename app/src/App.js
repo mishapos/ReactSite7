@@ -10,8 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Look at this really cool spinny thing we have here. Visible update.
-          Last updated 8/11/2021 1:59 PM PST
-          BAKED POTATO
+          Last updated 03/22/2022 1:59 PM PST
         </p>
         <a
           className="App-link"

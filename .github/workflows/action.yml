@@ -1,0 +1,29 @@
+name: Azure Static Web Apps CI/CD
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    types: [opened, synchronize, reopened, closed]
+    branches:
+      - master
+jobs:
+  container-test-job:
+    runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/oryx/build:latest
+      env:
+        NODE_ENV: development
+      ports:
+        - 80
+      volumes:
+        - ${{ github.workspace }}:/repo
+      options: --cpus 1
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build With Oryx
+        run: |
+          ls /repo/app
+          oryx build /repo/app --output /repo/output
+          ls /repo/output
